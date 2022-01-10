@@ -6,14 +6,14 @@ from keras.models import load_model
 
 
 #Loading the Model
-model = load_model('C:/Users/hsr15/OneDrive/Documents/GitHub/Plant_Disease/plant_disease.h5')
+model = load_model('/home/meyada/Desktop/github/Plant_Disease/plant_disease.h5')
 
 #Name of Classes
 CLASS_NAMES = ['Corn-Common_rust', 'Potato-Early_blight', 'Tomato-Bacterial_spot']
 
 #Setting Title of App
-st.title("Plant Disease Detection")
-st.markdown("Upload an image of the plant leaf")
+st.title("การตรวจหาโรคพืช")
+st.markdown("อัพโหลดภาพใบพืช")
 
 #Uploading the dog image
 plant_image = st.file_uploader("Choose an image...", type="jpg")
