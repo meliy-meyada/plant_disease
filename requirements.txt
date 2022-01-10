@@ -1,5 +1,6 @@
-streamlit==0.71.0
-keras==2.6.0
-numpy==1.19.5
+
 opencv-python-headless
-tensorflow==2.5.0
+streamlit==0.71.0
+Keras==2.4.3
+numpy==1.18.5
+opencv-python-headless==4.5.4.60
