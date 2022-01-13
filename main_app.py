@@ -2,7 +2,6 @@
 import numpy as np
 import streamlit as st
 import cv2
-from tensorflow import keras
 from keras.models import load_model
 
 
